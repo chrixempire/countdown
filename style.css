@@ -65,7 +65,7 @@ ul{
     
 }
 .socials ul li button:hover{
-    background-color: crimson;
+    background-color: hsl(345, 95%, 68%);
     cursor: pointer;
 }
 .container{
