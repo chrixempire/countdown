@@ -124,12 +124,13 @@ ul{
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
+        
       
     }
     
     body{
         font-family: 'Red Hat Text', sans-serif;
-        background-color:  hsl(235, 16%, 14%);    overflow: visible;
+        background-color:  hsl(235, 16%, 14%);    overflow: hidden;
 
       
     }
@@ -143,6 +144,7 @@ ul{
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 90%;
         margin: auto;
 
     }
@@ -169,7 +171,7 @@ ul{
         border-radius: 5px;
         color: hsl(345, 95%, 68%);
         font-size:32px ;
-        width: 75px;
+        width: 70px;
         display: flex;
         justify-content: center;
         align-items: center;
