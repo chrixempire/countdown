@@ -155,7 +155,7 @@ ul{
         letter-spacing: 2px;
         margin-bottom: 50px;
         text-align: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 85%;
     }
     .countdown h3{
