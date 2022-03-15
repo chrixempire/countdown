@@ -153,7 +153,7 @@ ul{
         font-size: 28px;
         text-transform: uppercase ;
         letter-spacing: 2px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
         text-align: center;
     }
     .countdown h3{
@@ -161,7 +161,7 @@ ul{
         color: hsl(237, 18%, 59%);
         text-transform: uppercase;
         letter-spacing: 2px;
-        font-size: 14px;
+        font-size: 11px;
         margin-top: 10px;
     }
     .countdown p{
@@ -171,19 +171,26 @@ ul{
         border-radius: 5px;
         color: hsl(345, 95%, 68%);
         font-size:32px ;
-        width: 70px;
+        width: 75px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: auto;
         
     }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height:70vh;
+    }
     .countdown{
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 12px;
-        margin-top: -50px;
+        /* margin-top: -50px; */
     
     }
     .attribution{
