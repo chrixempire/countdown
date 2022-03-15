@@ -77,9 +77,8 @@ ul{
 }
 .countdown{
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 20px;
 
 }
@@ -130,7 +129,8 @@ ul{
     
     body{
         font-family: 'Red Hat Text', sans-serif;
-        background-color:  hsl(235, 16%, 14%);    overflow: hidden;
+        background-color:  hsl(235, 16%, 14%);    
+        overflow: hidden;
 
       
     }
@@ -153,7 +153,7 @@ ul{
         font-size: 28px;
         text-transform: uppercase ;
         letter-spacing: 2px;
-        margin-bottom: 50px;
+        margin-bottom: 70px;
         text-align: center;
     }
     .countdown h3{
@@ -180,10 +180,10 @@ ul{
     }
     .countdown{
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 15px;
+        gap: 12px;
+        margin-top: -50px;
     
     }
     .attribution{
